@@ -7,16 +7,16 @@ part-of      = 'foundation'
 [[Script]]
 name         = 'sync-groups'
 args         = [['--group-prefix', '{group-prefix}'], 
-                ['--config-dir', '../Delegat-Install/apps/foundation/sso-config/sso_groups']]
+                ['--config-dir', '../CloudSecOps-Installer/apps/foundation/sso-config/sso_groups']]
 
 [[Script]]
 name         = 'sync-permission-sets'
-args         = [['--config-dir', '../Delegat-Install/apps/foundation/sso-config/sso_permission_sets']]
+args         = [['--config-dir', '../CloudSecOps-Installer/apps/foundation/sso-config/sso_permission_sets']]
 
 
 [[Script]]
 name         = 'sync-accounts'
 args         = [['--group-prefix', '{group-prefix}'], 
-                ['--accounts', '../Delegat-Install/apps//accounts.toml'],
-                ['--config-dir', '../Delegat-Install/apps/foundation/sso-config/accounts'],
+                ['--accounts', '../CloudSecOps-Installer/apps//accounts.toml'],
+                ['--config-dir', '../CloudSecOps-Installer/apps/foundation/sso-config/accounts'],
                ]
